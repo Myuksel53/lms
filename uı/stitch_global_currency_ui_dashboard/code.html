@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+
+<html lang="tr"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-secondary":"#ffffff","secondary":"#49607e","on-tertiary-fixed":"#2f1500","tertiary":"#4d2600","primary-fixed":"#b0f1c7","surface-container":"#eaedff","inverse-primary":"#95d4ac","secondary-fixed-dim":"#b0c8eb","tertiary-container":"#6e3900","inverse-surface":"#283044","background":"#faf8ff","primary-fixed-dim":"#95d4ac","on-primary-container":"#84c39b","on-primary":"#ffffff","on-surface-variant":"#404942","error-container":"#ffdad6","on-tertiary-container":"#ff9e47","on-tertiary-fixed-variant":"#6e3900","inverse-on-surface":"#eef0ff","outline":"#707971","surface-container-high":"#e2e7ff","tertiary-fixed-dim":"#ffb77d","primary":"#003820","secondary-container":"#c4dcff","surface":"#faf8ff","surface-container-highest":"#dae2fd","primary-container":"#0f5132","on-secondary-container":"#49617f","on-error-container":"#93000a","on-background":"#131b2e","on-secondary-fixed":"#001c37","tertiary-fixed":"#ffdcc3","on-primary-fixed":"#002111","surface-dim":"#d2d9f4","outline-variant":"#c0c9c0","on-secondary-fixed-variant":"#314865","on-surface":"#131b2e","on-error":"#ffffff","surface-container-lowest":"#ffffff","surface-variant":"#dae2fd","on-primary-fixed-variant":"#0f5132","surface-tint":"#2d6a48","on-tertiary":"#ffffff","surface-bright":"#faf8ff","surface-container-low":"#f2f3ff","secondary-fixed":"#d2e4ff","error":"#ba1a1a"},borderRadius:{DEFAULT:"0.125rem",lg:"0.25rem",xl:"0.5rem",full:"0.75rem"},spacing:{"space-md":"1rem",gutter:"1.5rem","space-xl":"2.5rem","gutter-mobile":"0.75rem","space-xs":"0.25rem","margin-mobile":"1rem","space-sm":"0.5rem","space-lg":"1.5rem",margin:"2.5rem"},fontFamily:{"headline-lg-mobile":["Space Grotesk"],"display-lg":["Space Grotesk"],"headline-lg":["Space Grotesk"],"label-tag":["JetBrains Mono"],"label-numeric-lg":["JetBrains Mono"],"body-md":["Hanken Grotesk"],"headline-sm":["Space Grotesk"],"label-numeric-md":["JetBrains Mono"],"body-lg":["Hanken Grotesk"],"headline-md":["Space Grotesk"],"display-lg-mobile":["Space Grotesk"],"body-sm":["Hanken Grotesk"]},fontSize:{"headline-lg-mobile":["26px",{lineHeight:"32px",letterSpacing:"-0.01em",fontWeight:"600"}],"display-lg":["48px",{lineHeight:"56px",letterSpacing:"-0.03em",fontWeight:"700"}],"headline-lg":["36px",{lineHeight:"44px",letterSpacing:"-0.02em",fontWeight:"600"}],"label-tag":["11px",{lineHeight:"14px",letterSpacing:"0.06em",fontWeight:"600"}],"label-numeric-lg":["20px",{lineHeight:"24px",letterSpacing:"-0.01em",fontWeight:"600"}],"body-md":["15px",{lineHeight:"22px",fontWeight:"400"}],"headline-sm":["20px",{lineHeight:"28px",fontWeight:"600"}],"label-numeric-md":["14px",{lineHeight:"18px",fontWeight:"500"}],"body-lg":["18px",{lineHeight:"28px",fontWeight:"400"}],"headline-md":["24px",{lineHeight:"32px",letterSpacing:"-0.015em",fontWeight:"600"}],"display-lg-mobile":["32px",{lineHeight:"40px",letterSpacing:"-0.02em",fontWeight:"700"}],"body-sm":["13px",{lineHeight:"18px",fontWeight:"400"}]}}}};</script></head><body class="bg-background font-body-md text-on-surface"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="bg-surface-container-low px-margin py-1 hidden lg:flex items-center justify-between text-on-surface-variant font-label-tag text-label-tag"><div class="flex items-center gap-space-lg"><span class="flex items-center gap-space-xs text-primary font-semibold"><span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>CANLI PİYASA DERİNLİĞİ</span><div class="flex items-center gap-space-md"><span class="flex items-center gap-space-xs"><span>USD/TRY</span><span class="font-label-numeric-md text-label-numeric-md text-on-surface">32.4180</span><span class="text-primary text-[10px]">+0.14%</span></span><span class="flex items-center gap-space-xs"><span>EUR/USD</span><span class="font-label-numeric-md text-label-numeric-md text-on-surface">1.0864</span><span class="text-error text-[10px]">-0.08%</span></span><span class="flex items-center gap-space-xs"><span>GBP/USD</span><span class="font-label-numeric-md text-label-numeric-md text-on-surface">1.2715</span><span class="text-primary text-[10px]">+0.05%</span></span><span class="flex items-center gap-space-xs"><span>XAU/USD</span><span class="font-label-numeric-md text-label-numeric-md text-tertiary-container">2,342.80</span><span class="text-primary text-[10px]">+0.62%</span></span></div></div><div class="flex items-center gap-space-md"><span class="text-on-surface-variant">MERKEZİ TAKAS SİSTEMİ</span><span class="text-on-surface font-label-numeric-md text-label-numeric-md">GMT+3 14:32:08</span></div></div><div class="h-20 w-full px-margin flex items-center justify-between"><div class="flex items-center gap-space-xl"><div class="flex items-center gap-space-sm"><img alt="Aura Treasury Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCurRbum5P5BlxUg6BcqPSM0whXNWfjIddQy4ehSQTUy_0v4fqH8h3CO7S0myvYmwUik2fMlVXVncqD7c4VYeTcg4Cqj2GAQ3SEButGU8CHOL43haFKEmAZYvxR7rCrJ2yBINMZmpIMGry2LOQYgOUEeevz0zortbj5iEJFX0lgCZuIPTJ4PSmLL2gheeEo5dPkcXQOBjYSk12Pf__E6ar02HGhJHJu0p28TlYKk4IvgjRGGxuW07fV"/><div class="flex flex-col"><span class="font-headline-md text-headline-sm text-primary tracking-tight font-bold leading-none">AURA</span><span class="font-label-tag text-label-tag tracking-wider text-on-surface-variant leading-none mt-1">TREASURY</span></div></div><nav class="hidden xl:flex items-center gap-space-xs p-1 rounded-lg bg-surface-container-low" data-active-classes="bg-primary-container text-on-primary font-semibold rounded-lg shadow-sm"><a class="px-space-md py-space-sm rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="genel-bakis" href="#">Genel Bakış</a><a class="px-space-md py-space-sm rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="coklu-doviz-hesaplari" href="#">Çoklu Döviz Hesapları</a><a class="px-space-md py-space-sm rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="piyasa-kurlar" href="#">Piyasa &amp; Kurlar</a><a class="px-space-md py-space-sm rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="transfer-takas" href="#">Transfer &amp; Takas</a><a class="px-space-md py-space-sm rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="analiz-raporlar" href="#">Analiz &amp; Raporlar</a></nav></div><div class="flex items-center gap-space-md"><button class="relative p-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-error ring-2 ring-surface"></span></button><div class="flex items-center gap-space-sm pl-space-md py-1"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDoAM-BTWiAeMTXAus07DrIazJ8KFouG7Rt0KtFXPWZtdZPdwNLaboOXOfUfXFSC1-fCVfzH11Ry37i8gdfl64cP3raQTaw4VOCX6qywD_evYd3hfjV9enfePPkcGLiBCJD3f2_2F5UgzZR__BcyZZ6iaBzUOYTvp0z6N2iC5060AYITCK5VKEvO-_1W9wbJpHY0geo0-wlLyr5BgdiNeVd9Vie_2aDopgyb_pDL2l3vOWQz2eSIWiN"/><div class="hidden sm:flex flex-col text-left"><span class="font-body-sm text-body-sm text-on-surface font-semibold leading-tight">Hakan Demir</span><span class="font-label-tag text-label-tag text-on-surface-variant leading-tight">Global Hazne Direktörü</span></div></div></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full">
+<!-- Operational Sub-Header Bar -->
+<section class="w-full px-margin py-space-md bg-surface-container-low flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-sm">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed-variant font-label-tag text-label-tag">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+          PORTFÖY DURUMU: AKTİF
+        </span>
+<span class="font-label-tag text-label-tag text-on-surface-variant">KONSOLİDE BİLANÇO #TR-8842-FX</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface font-semibold tracking-tight">Hazine Yönetimi &amp; Çoklu Döviz Portföyü</h1>
+</div>
+<div class="flex items-center gap-space-sm flex-wrap">
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors font-body-sm text-body-sm font-medium" type="button">
+<span class="material-symbols-outlined text-[18px]">calendar_today</span>
+<span>Bu Ay (Ekim 2025)</span>
+</button>
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-lg bg-secondary text-on-secondary hover:bg-on-secondary-fixed-variant transition-colors font-body-sm text-body-sm font-semibold" type="button">
+<span class="material-symbols-outlined text-[18px]">currency_exchange</span>
+<span>Anlık FX İşlemi</span>
+</button>
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-lg bg-primary-container text-on-primary hover:bg-primary transition-colors font-body-sm text-body-sm font-semibold" type="button">
+<span class="material-symbols-outlined text-[18px]">send_money</span>
+<span>Yeni Transfer Başlat</span>
+</button>
+</div>
+</section>
+<!-- Main Content Grid -->
+<div class="px-margin py-space-lg flex flex-col gap-space-xl">
+<!-- KPI Section: 4 Institutional Metric Cards -->
+<div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-gutter">
+<!-- Card 1: Toplam Varlık Değeri -->
+<div class="relative overflow-hidden rounded-xl bg-surface-container-lowest p-space-lg shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div class="absolute top-0 left-0 right-0 h-1 bg-primary-container"></div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-tag text-label-tag text-on-surface-variant uppercase tracking-wider">Toplam Varlık Değeri</span>
+<span class="p-1.5 rounded-lg bg-surface-container text-primary-container">
+<span class="material-symbols-outlined text-[20px]">account_balance</span>
+</span>
+</div>
+<div class="flex flex-col gap-space-xs mt-space-sm">
+<div class="flex items-baseline gap-space-xs">
+<span class="font-display-lg text-headline-lg font-bold text-on-surface tracking-tight">€1,482,950.00</span>
+</div>
+<div class="flex items-center gap-space-sm mt-1">
+<span class="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded-full bg-primary-fixed text-primary-container font-label-tag text-label-tag font-semibold">
+<span class="material-symbols-outlined text-[14px]">trending_up</span>
+              +4.8%
+            </span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">geçen aya göre</span>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-on-surface-variant font-label-tag text-label-tag">
+<span>Baz Para Birimi: EUR</span>
+<span class="text-primary-container font-semibold">Risk: Düşük</span>
+</div>
+</div>
+<!-- Card 2: Likit Rezervler -->
+<div class="relative overflow-hidden rounded-xl bg-surface-container-lowest p-space-lg shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div class="absolute top-0 left-0 right-0 h-1 bg-secondary"></div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-tag text-label-tag text-on-surface-variant uppercase tracking-wider">Likit Nakit Rezervleri</span>
+<span class="p-1.5 rounded-lg bg-secondary-fixed text-on-secondary-fixed-variant">
+<span class="material-symbols-outlined text-[20px]">payments</span>
+</span>
+</div>
+<div class="flex flex-col gap-space-xs mt-space-sm">
+<div class="flex items-baseline gap-space-xs">
+<span class="font-display-lg text-headline-lg font-bold text-on-surface tracking-tight">$640,200.00</span>
+</div>
+<div class="flex items-center gap-space-sm mt-1">
+<span class="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-tag text-label-tag font-semibold">
+<span class="material-symbols-outlined text-[14px]">schedule</span>
+              T+0 Hazır
+            </span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">anlık çekilebilir</span>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-on-surface-variant font-label-tag text-label-tag">
+<span>Teminat Oranı: %100</span>
+<span class="text-secondary font-semibold">4 Banka Havuzu</span>
+</div>
+</div>
+<!-- Card 3: Altın & Emtia Rezervleri -->
+<div class="relative overflow-hidden rounded-xl bg-surface-container-lowest p-space-lg shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div class="absolute top-0 left-0 right-0 h-1 bg-tertiary-container"></div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-tag text-label-tag text-on-surface-variant uppercase tracking-wider">Külçe Altın &amp; Kıymetli Maden</span>
+<span class="p-1.5 rounded-lg bg-tertiary-fixed text-on-tertiary-fixed-variant">
+<span class="material-symbols-outlined text-[20px]">diamond</span>
+</span>
+</div>
+<div class="flex flex-col gap-space-xs mt-space-sm">
+<div class="flex items-baseline gap-space-xs">
+<span class="font-display-lg text-headline-lg font-bold text-tertiary tracking-tight">350.50 oz</span>
+</div>
+<div class="flex items-center gap-space-sm mt-1">
+<span class="font-label-numeric-md text-label-numeric-md font-semibold text-tertiary-container">€724,100.00 Rayiç</span>
+<span class="text-primary text-[11px] font-bold">+1.24%</span>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-on-surface-variant font-label-tag text-label-tag">
+<span>Depo: İsviçre LBMA Kasa</span>
+<span class="text-tertiary-container font-semibold">999.9 Saflık</span>
+</div>
+</div>
+<!-- Card 4: Günlük İşlem Hacmi -->
+<div class="relative overflow-hidden rounded-xl bg-surface-container-lowest p-space-lg shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div class="absolute top-0 left-0 right-0 h-1 bg-surface-tint"></div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-tag text-label-tag text-on-surface-variant uppercase tracking-wider">24s Takas &amp; İşlem Hacmi</span>
+<span class="p-1.5 rounded-lg bg-surface-container-high text-primary">
+<span class="material-symbols-outlined text-[20px]">sync_alt</span>
+</span>
+</div>
+<div class="flex flex-col gap-space-xs mt-space-sm">
+<div class="flex items-baseline gap-space-xs">
+<span class="font-display-lg text-headline-lg font-bold text-on-surface tracking-tight">€128,450.00</span>
+</div>
+<div class="flex items-center gap-space-sm mt-1">
+<span class="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-tag text-label-tag">
+              18 Mutabakat
+            </span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">tümü neticelendirildi</span>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-on-surface-variant font-label-tag text-label-tag">
+<span>Ort. İşlem Süresi: 1.4 dk</span>
+<span class="text-primary font-semibold">SEPA / SWIFT</span>
+</div>
+</div>
+</div>
+<!-- Middle Section: Asset Allocation & Currency Market Matrix -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<!-- Portfolio Asset Allocation (5 Cols) -->
+<div class="lg:col-span-5 rounded-xl bg-surface-container-lowest p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Varlık &amp; Rezerv Dağılımı</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Çoklu para birimi ve kıymetli maden dengesi</p>
+</div>
+<span class="px-2 py-1 rounded bg-surface-container text-on-surface font-label-tag text-label-tag font-semibold">CANLI METRİK</span>
+</div>
+<!-- Custom SVG Donut / Visual Allocation Segment -->
+<div class="flex flex-col sm:flex-row items-center gap-space-lg my-space-sm">
+<div class="relative w-44 h-44 flex items-center justify-center shrink-0">
+<svg class="w-full h-full transform -rotate-90" viewbox="0 0 100 100">
+<!-- EUR: 42% (circumference ~282.7) -> dasharray: 118.7 282.7 -->
+<circle cx="50" cy="50" fill="transparent" r="45" stroke="#0f5132" stroke-dasharray="118.7 282.7" stroke-dashoffset="0" stroke-linecap="round" stroke-width="10"></circle>
+<!-- USD: 30% -> dasharray: 84.8 282.7 -->
+<circle cx="50" cy="50" fill="transparent" r="45" stroke="#49607e" stroke-dasharray="84.8 282.7" stroke-dashoffset="-118.7" stroke-linecap="round" stroke-width="10"></circle>
+<!-- GBP: 12% -> dasharray: 33.9 282.7 -->
+<circle cx="50" cy="50" fill="transparent" r="45" stroke="#2d6a48" stroke-dasharray="33.9 282.7" stroke-dashoffset="-203.5" stroke-linecap="round" stroke-width="10"></circle>
+<!-- Gold: 10% -> dasharray: 28.2 282.7 -->
+<circle cx="50" cy="50" fill="transparent" r="45" stroke="#6e3900" stroke-dasharray="28.2 282.7" stroke-dashoffset="-237.4" stroke-linecap="round" stroke-width="10"></circle>
+<!-- JPY: 6% -> dasharray: 16.9 282.7 -->
+<circle cx="50" cy="50" fill="transparent" r="45" stroke="#c4dcff" stroke-dasharray="17 282.7" stroke-dashoffset="-265.6" stroke-linecap="round" stroke-width="10"></circle>
+</svg>
+<div class="absolute inset-0 flex flex-col items-center justify-center text-center">
+<span class="font-label-tag text-label-tag text-on-surface-variant font-semibold">TOPLAM HAZİNE</span>
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">€1.48M</span>
+<span class="text-[10px] text-primary-container font-semibold">5 Varlık Sınıfı</span>
+</div>
+</div>
+<!-- Breakdown Legend List -->
+<div class="flex flex-col gap-space-sm w-full">
+<div class="flex items-center justify-between p-2 rounded bg-surface-container-low hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-space-xs">
+<span class="w-3 h-3 rounded-full bg-primary-container"></span>
+<span class="font-body-sm text-body-sm font-semibold text-on-surface">Euro (EUR)</span>
+</div>
+<div class="flex items-center gap-space-md">
+<span class="font-label-numeric-md text-label-numeric-md font-medium text-on-surface">€622,839</span>
+<span class="font-label-tag text-label-tag font-bold text-primary-container w-8 text-right">%42</span>
+</div>
+</div>
+<div class="flex items-center justify-between p-2 rounded bg-surface-container-low hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-space-xs">
+<span class="w-3 h-3 rounded-full bg-secondary"></span>
+<span class="font-body-sm text-body-sm font-semibold text-on-surface">ABD Doları (USD)</span>
+</div>
+<div class="flex items-center gap-space-md">
+<span class="font-label-numeric-md text-label-numeric-md font-medium text-on-surface">$444,885</span>
+<span class="font-label-tag text-label-tag font-bold text-secondary w-8 text-right">%30</span>
+</div>
+</div>
+<div class="flex items-center justify-between p-2 rounded bg-surface-container-low hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-space-xs">
+<span class="w-3 h-3 rounded-full bg-surface-tint"></span>
+<span class="font-body-sm text-body-sm font-semibold text-on-surface">İngiliz Sterlini (GBP)</span>
+</div>
+<div class="flex items-center gap-space-md">
+<span class="font-label-numeric-md text-label-numeric-md font-medium text-on-surface">£177,954</span>
+<span class="font-label-tag text-label-tag font-bold text-on-surface w-8 text-right">%12</span>
+</div>
+</div>
+<div class="flex items-center justify-between p-2 rounded bg-surface-container-low hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-space-xs">
+<span class="w-3 h-3 rounded-full bg-tertiary-container"></span>
+<span class="font-body-sm text-body-sm font-semibold text-tertiary">Külçe Altın (XAU)</span>
+</div>
+<div class="flex items-center gap-space-md">
+<span class="font-label-numeric-md text-label-numeric-md font-medium text-tertiary-container">€148,295</span>
+<span class="font-label-tag text-label-tag font-bold text-tertiary-container w-8 text-right">%10</span>
+</div>
+</div>
+<div class="flex items-center justify-between p-2 rounded bg-surface-container-low hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-space-xs">
+<span class="w-3 h-3 rounded-full bg-secondary-container"></span>
+<span class="font-body-sm text-body-sm font-semibold text-on-surface">Japon Yeni (JPY)</span>
+</div>
+<div class="flex items-center gap-space-md">
+<span class="font-label-numeric-md text-label-numeric-md font-medium text-on-surface">¥14.2M</span>
+<span class="font-label-tag text-label-tag font-bold text-on-surface-variant w-8 text-right">%6</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary-container">shield_with_heart</span>
+<div class="flex flex-col">
+<span class="font-body-sm text-body-sm font-semibold text-on-surface">Kur Riski Koruma (Hedging)</span>
+<span class="font-label-tag text-label-tag text-on-surface-variant">Türev pozisyonları ile %85 kilitlenmiş kur koruması</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-primary-fixed text-primary-container font-label-tag text-label-tag font-bold">KORUNUYOR</span>
+</div>
+</div>
+<!-- Live FX Rates & Trend Chart (7 Cols) -->
+<div class="lg:col-span-7 rounded-xl bg-surface-container-lowest p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Anlık Piyasa Kurları &amp; Likidite</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Merkez Bankası ve Bankalararası Gerçek Zamanlı Kotasyonlar</p>
+</div>
+<div class="flex items-center gap-1 p-1 bg-surface-container-low rounded-lg">
+<button class="px-2.5 py-1 rounded text-xs font-semibold bg-surface-container-lowest text-on-surface shadow-xs">Piyasa Kurları</button>
+<button class="px-2.5 py-1 rounded text-xs font-medium text-on-surface-variant hover:text-on-surface">Swap &amp; Forward</button>
+<button class="px-2.5 py-1 rounded text-xs font-medium text-on-surface-variant hover:text-on-surface">TCMB Gösterge</button>
+</div>
+</div>
+<!-- FX Table with Monospace Numerics and Sparkline Graphs -->
+<div class="overflow-x-auto">
+<table class="w-full text-left">
+<thead>
+<tr class="bg-surface-container-low text-on-surface-variant font-label-tag text-label-tag">
+<th class="py-2.5 px-3 rounded-l">PARİTE / EMTİA</th>
+<th class="py-2.5 px-3 text-right">ALIŞ (BID)</th>
+<th class="py-2.5 px-3 text-right">SATIŞ (ASK)</th>
+<th class="py-2.5 px-3 text-center">GÜNLÜK TREND</th>
+<th class="py-2.5 px-3 text-right">24S FARK</th>
+<th class="py-2.5 px-3 rounded-r text-center">İŞLEM</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container font-body-sm text-body-sm">
+<!-- Row: EUR/TRY -->
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="py-3 px-3">
+<div class="flex items-center gap-space-sm">
+<span class="w-6 h-6 rounded-full bg-surface-container flex items-center justify-center font-label-tag text-[10px] font-bold text-primary-container">€/₺</span>
+<div>
+<div class="font-semibold text-on-surface">EUR / TRY</div>
+<div class="text-[11px] text-on-surface-variant font-label-tag">Euro Türk Lirası</div>
+</div>
+</div>
+</td>
+<td class="py-3 px-3 text-right font-label-numeric-md font-semibold text-on-surface">35.2140</td>
+<td class="py-3 px-3 text-right font-label-numeric-md font-semibold text-on-surface">35.2310</td>
+<td class="py-3 px-3 text-center">
+<svg class="w-20 h-5 inline-block text-primary-container" fill="none" viewbox="0 0 80 20">
+<polyline points="0,15 15,13 30,16 45,9 60,11 80,4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></polyline>
+</svg>
+</td>
+<td class="py-3 px-3 text-right">
+<span class="inline-flex items-center px-1.5 py-0.5 rounded bg-primary-fixed text-primary-container font-label-tag text-label-tag font-semibold">+0.28%</span>
+</td>
+<td class="py-3 px-3 text-center">
+<button class="p-1 rounded bg-surface-container hover:bg-surface-container-high text-primary-container font-semibold transition-colors" title="Döviz Çevir" type="button">
+<span class="material-symbols-outlined text-[18px]">swap_horiz</span>
+</button>
+</td>
+</tr>
+<!-- Row: USD/TRY -->
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="py-3 px-3">
+<div class="flex items-center gap-space-sm">
+<span class="w-6 h-6 rounded-full bg-surface-container flex items-center justify-center font-label-tag text-[10px] font-bold text-secondary">$/₺</span>
+<div>
+<div class="font-semibold text-on-surface">USD / TRY</div>
+<div class="text-[11px] text-on-surface-variant font-label-tag">Dolar Türk Lirası</div>
+</div>
+</div>
+</td>
+<td class="py-3 px-3 text-right font-label-numeric-md font-semibold text-on-surface">32.4120</td>
+<td class="py-3 px-3 text-right font-label-numeric-md font-semibold text-on-surface">32.4280</td>
+<td class="py-3 px-3 text-center">
+<svg class="w-20 h-5 inline-block text-primary-container" fill="none" viewbox="0 0 80 20">
+<polyline points="0,14 20,12 40,8 55,10 80,3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></polyline>
+</svg>
+</td>
+<td class="py-3 px-3 text-right">
+<span class="inline-flex items-center px-1.5 py-0.5 rounded bg-primary-fixed text-primary-container font-label-tag text-label-tag font-semibold">+0.14%</span>
+</td>
+<td class="py-3 px-3 text-center">
+<button class="p-1 rounded bg-surface-container hover:bg-surface-container-high text-primary-container font-semibold transition-colors" title="Döviz Çevir" type="button">
+<span class="material-symbols-outlined text-[18px]">swap_horiz</span>
+</button>
+</td>
+</tr>
+<!-- Row: EUR/USD -->
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="py-3 px-3">
+<div class="flex items-center gap-space-sm">
+<span class="w-6 h-6 rounded-full bg-surface-container flex items-center justify-center font-label-tag text-[10px] font-bold text-on-surface">€/$</span>
+<div>
+<div class="font-semibold text-on-surface">EUR / USD</div>
+<div class="text-[11px] text-on-surface-variant font-label-tag">Euro Dolar Paritesi</div>
+</div>
+</div>
+</td>
+<td class="py-3 px-3 text-right font-label-numeric-md font-semibold text-on-surface">1.0862</td>
+<td class="py-3 px-3 text-right font-label-numeric-md font-semibold text-on-surface">1.0866</td>
+<td class="py-3 px-3 text-center">
+<svg class="w-20 h-5 inline-block text-error" fill="none" viewbox="0 0 80 20">
+<polyline points="0,6 20,5 40,11 60,9 80,16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></polyline>
+</svg>
+</td>
+<td class="py-3 px-3 text-right">
+<span class="inline-flex items-center px-1.5 py-0.5 rounded bg-error-container text-on-error-container font-label-tag text-label-tag font-semibold">-0.08%</span>
+</td>
+<td class="py-3 px-3 text-center">
+<button class="p-1 rounded bg-surface-container hover:bg-surface-container-high text-primary-container font-semibold transition-colors" title="Döviz Çevir" type="button">
+<span class="material-symbols-outlined text-[18px]">swap_horiz</span>
+</button>
+</td>
+</tr>
+<!-- Row: GBP/EUR -->
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="py-3 px-3">
+<div class="flex items-center gap-space-sm">
+<span class="w-6 h-6 rounded-full bg-surface-container flex items-center justify-center font-label-tag text-[10px] font-bold text-secondary">£/€</span>
+<div>
+<div class="font-semibold text-on-surface">GBP / EUR</div>
+<div class="text-[11px] text-on-surface-variant font-label-tag">Sterlin Euro Çapraz</div>
+</div>
+</div>
+</td>
+<td class="py-3 px-3 text-right font-label-numeric-md font-semibold text-on-surface">1.1704</td>
+<td class="py-3 px-3 text-right font-label-numeric-md font-semibold text-on-surface">1.1709</td>
+<td class="py-3 px-3 text-center">
+<svg class="w-20 h-5 inline-block text-primary-container" fill="none" viewbox="0 0 80 20">
+<polyline points="0,12 25,10 45,14 65,7 80,5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></polyline>
+</svg>
+</td>
+<td class="py-3 px-3 text-right">
+<span class="inline-flex items-center px-1.5 py-0.5 rounded bg-primary-fixed text-primary-container font-label-tag text-label-tag font-semibold">+0.12%</span>
+</td>
+<td class="py-3 px-3 text-center">
+<button class="p-1 rounded bg-surface-container hover:bg-surface-container-high text-primary-container font-semibold transition-colors" title="Döviz Çevir" type="button">
+<span class="material-symbols-outlined text-[18px]">swap_horiz</span>
+</button>
+</td>
+</tr>
+<!-- Row: XAU/USD (Gold) -->
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="py-3 px-3">
+<div class="flex items-center gap-space-sm">
+<span class="w-6 h-6 rounded-full bg-tertiary-fixed flex items-center justify-center font-label-tag text-[10px] font-bold text-tertiary-container">Au</span>
+<div>
+<div class="font-semibold text-tertiary">XAU / USD</div>
+<div class="text-[11px] text-on-surface-variant font-label-tag">Ons Altın Spot</div>
+</div>
+</div>
+</td>
+<td class="py-3 px-3 text-right font-label-numeric-md font-semibold text-on-surface">2,342.10</td>
+<td class="py-3 px-3 text-right font-label-numeric-md font-semibold text-on-surface">2,343.50</td>
+<td class="py-3 px-3 text-center">
+<svg class="w-20 h-5 inline-block text-tertiary-container" fill="none" viewbox="0 0 80 20">
+<polyline points="0,17 20,15 35,11 50,13 65,8 80,2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></polyline>
+</svg>
+</td>
+<td class="py-3 px-3 text-right">
+<span class="inline-flex items-center px-1.5 py-0.5 rounded bg-tertiary-fixed text-on-tertiary-fixed-variant font-label-tag text-label-tag font-semibold">+0.62%</span>
+</td>
+<td class="py-3 px-3 text-center">
+<button class="p-1 rounded bg-surface-container hover:bg-surface-container-high text-primary-container font-semibold transition-colors" title="Döviz Çevir" type="button">
+<span class="material-symbols-outlined text-[18px]">swap_horiz</span>
+</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="flex items-center justify-between text-on-surface-variant font-label-tag text-label-tag pt-2">
+<span class="flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-ping"></span>
+            Veri Akışı: Bloomberg B-PIPE &amp; Reuters FIX Protokolü (0.4 sn)
+          </span>
+<a class="text-primary-container hover:underline font-semibold flex items-center gap-0.5" href="#">
+            Tüm Kurları Görüntüle
+            <span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Multi-Currency Vault & Accounts Section -->
+<div class="rounded-xl bg-surface-container-lowest p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Çoklu Para Birimi Hazine Hesapları</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Uluslararası muhabir bankalarda tutulan kurum adına tahsisli IBAN ve döviz hesapları</p>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-md py-space-sm rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-body-sm text-body-sm font-semibold transition-colors flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[18px]">add_circle</span>
+<span>Yeni Alt Hesap Aç</span>
+</button>
+</div>
+</div>
+<!-- Account Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-gutter">
+<!-- Account Card 1: EUR Ana Hazine Hesabı -->
+<div class="rounded-lg bg-surface-container-low p-space-md flex flex-col justify-between gap-space-md hover:bg-surface-container transition-all group">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary flex items-center justify-center font-bold text-lg shadow-sm">
+                €
+              </div>
+<div>
+<h3 class="font-body-md text-body-md font-bold text-on-surface">Euro Ana Hazine</h3>
+<span class="font-label-tag text-label-tag text-on-surface-variant">BNP Paribas, Paris</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-primary-fixed text-primary-container font-label-tag text-[10px] font-bold">AKTİF SEPA</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-tag text-label-tag text-on-surface-variant">KULLANILABİLİR BAKİYE</span>
+<span class="font-label-numeric-lg text-headline-md font-bold text-on-surface">€622,839.40</span>
+<span class="font-label-tag text-label-tag text-on-surface-variant mt-1 font-mono tracking-tight">IBAN: FR76 3000 4018 2000 0123 4567 891</span>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<button class="text-xs font-semibold text-primary-container hover:underline flex items-center gap-0.5" type="button">
+<span>Transfer Et</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+<button class="text-xs font-medium text-on-surface-variant hover:text-on-surface" type="button">
+              Ekstre İndir
+            </button>
+</div>
+</div>
+<!-- Account Card 2: USD Ticari Hazine -->
+<div class="rounded-lg bg-surface-container-low p-space-md flex flex-col justify-between gap-space-md hover:bg-surface-container transition-all group">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-secondary text-on-secondary flex items-center justify-center font-bold text-lg shadow-sm">
+                $
+              </div>
+<div>
+<h3 class="font-body-md text-body-md font-bold text-on-surface">USD Global Operasyon</h3>
+<span class="font-label-tag text-label-tag text-on-surface-variant">J.P. Morgan, New York</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-tag text-[10px] font-bold">FEDWIRE</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-tag text-label-tag text-on-surface-variant">KULLANILABİLİR BAKİYE</span>
+<span class="font-label-numeric-lg text-headline-md font-bold text-on-surface">$444,885.12</span>
+<span class="font-label-tag text-label-tag text-on-surface-variant mt-1 font-mono tracking-tight">ABA Routing: 021000021 / Acc: 89412093</span>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<button class="text-xs font-semibold text-secondary hover:underline flex items-center gap-0.5" type="button">
+<span>Transfer Et</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+<button class="text-xs font-medium text-on-surface-variant hover:text-on-surface" type="button">
+              Ekstre İndir
+            </button>
+</div>
+</div>
+<!-- Account Card 3: GBP Londra Hazine -->
+<div class="rounded-lg bg-surface-container-low p-space-md flex flex-col justify-between gap-space-md hover:bg-surface-container transition-all group">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-surface-tint text-on-primary flex items-center justify-center font-bold text-lg shadow-sm">
+                £
+              </div>
+<div>
+<h3 class="font-body-md text-body-md font-bold text-on-surface">GBP Londra Takas</h3>
+<span class="font-label-tag text-label-tag text-on-surface-variant">Barclays Bank, London</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-tag text-[10px] font-bold">CHAPS / FPS</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-tag text-label-tag text-on-surface-variant">KULLANILABİLİR BAKİYE</span>
+<span class="font-label-numeric-lg text-headline-md font-bold text-on-surface">£177,954.80</span>
+<span class="font-label-tag text-label-tag text-on-surface-variant mt-1 font-mono tracking-tight">Sort Code: 20-00-00 / Acc: 43290114</span>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<button class="text-xs font-semibold text-primary-container hover:underline flex items-center gap-0.5" type="button">
+<span>Transfer Et</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+<button class="text-xs font-medium text-on-surface-variant hover:text-on-surface" type="button">
+              Ekstre İndir
+            </button>
+</div>
+</div>
+<!-- Account Card 4: Altın & Kıymetli Maden Deposu -->
+<div class="rounded-lg bg-surface-container-low p-space-md flex flex-col justify-between gap-space-md hover:bg-surface-container transition-all group">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-tertiary-container text-on-tertiary flex items-center justify-center font-bold text-lg shadow-sm">
+<span class="material-symbols-outlined text-[20px]">token</span>
+</div>
+<div>
+<h3 class="font-body-md text-body-md font-bold text-tertiary">Külçe Altın Deposu</h3>
+<span class="font-label-tag text-label-tag text-on-surface-variant">Loomis International, Zürih</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed-variant font-label-tag text-[10px] font-bold">TAHSİSLİ KASA</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-tag text-label-tag text-on-surface-variant">FİZİKİ VE ELEKTRONİK REZERV</span>
+<span class="font-label-numeric-lg text-headline-md font-bold text-tertiary">350.50 ONS</span>
+<span class="font-label-tag text-label-tag text-on-surface-variant mt-1 font-mono tracking-tight">Sertifika: LBMA-CH-9948210-AU</span>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<button class="text-xs font-semibold text-tertiary hover:underline flex items-center gap-0.5" type="button">
+<span>Kasa Raporu</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+<button class="text-xs font-medium text-on-surface-variant hover:text-on-surface" type="button">
+              Denetim Belgesi
+            </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Bottom Section: Cross-Border Transfers & Settlement Ledger -->
+<div class="rounded-xl bg-surface-container-lowest p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Son Hazine ve Takas İşlemleri</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">SWIFT GPI, SEPA Instant ve döviz çevrim operasyon günlüğü</p>
+</div>
+<div class="flex items-center gap-space-xs">
+<div class="relative">
+<input class="pl-8 pr-3 py-1.5 rounded-lg bg-surface-container-low text-on-surface text-body-sm focus:outline-none focus:ring-2 focus:ring-primary-container w-64" placeholder="İşlem No, IBAN veya Tutar Ara..." type="text"/>
+<span class="material-symbols-outlined absolute left-2 top-2 text-[18px] text-on-surface-variant">search</span>
+</div>
+<button class="p-1.5 rounded-lg bg-surface-container-low text-on-surface hover:bg-surface-container transition-colors" title="Filtrele" type="button">
+<span class="material-symbols-outlined text-[20px]">tune</span>
+</button>
+</div>
+</div>
+<!-- Ledger Table -->
+<div class="overflow-x-auto">
+<table class="w-full text-left">
+<thead>
+<tr class="bg-surface-container-low text-on-surface-variant font-label-tag text-label-tag">
+<th class="py-2.5 px-4 rounded-l">İŞLEM REFERANSI</th>
+<th class="py-2.5 px-4">TÜR / KANAL</th>
+<th class="py-2.5 px-4">KARŞI TARAF &amp; AÇIKLAMA</th>
+<th class="py-2.5 px-4">TARİH &amp; SAAT</th>
+<th class="py-2.5 px-4 text-right">TUTAR</th>
+<th class="py-2.5 px-4 text-center">DURUM</th>
+<th class="py-2.5 px-4 rounded-r text-center">İŞLEM</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container font-body-sm text-body-sm">
+<!-- Ledger Row 1 -->
+<tr class="hover:bg-surface-container-low/40 transition-colors">
+<td class="py-3.5 px-4">
+<div class="font-label-numeric-md font-semibold text-on-surface">#TX-992140</div>
+<div class="font-label-tag text-[10px] text-on-surface-variant">SWIFT: AURATRIX2</div>
+</td>
+<td class="py-3.5 px-4">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-surface-container text-on-surface font-label-tag text-label-tag font-medium">
+<span class="material-symbols-outlined text-[13px] text-secondary">flight_takeoff</span>
+                  SWIFT gpi
+                </span>
+</td>
+<td class="py-3.5 px-4">
+<div class="font-semibold text-on-surface">Siemens AG Industrial Europe</div>
+<div class="font-label-tag text-[11px] text-on-surface-variant truncate max-w-xs">Tedarikçi Ekipman İthalat Bedeli • DE89 5001 0517...</div>
+</td>
+<td class="py-3.5 px-4">
+<div class="font-label-numeric-md text-on-surface">24 Eki 2025</div>
+<div class="font-label-tag text-[11px] text-on-surface-variant">14:12:45 GMT+3</div>
+</td>
+<td class="py-3.5 px-4 text-right font-label-numeric-md font-bold text-on-surface">
+                -€84,500.00
+              </td>
+<td class="py-3.5 px-4 text-center">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-primary-fixed text-primary-container font-label-tag text-[11px] font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+                  Tamamlandı
+                </span>
+</td>
+<td class="py-3.5 px-4 text-center">
+<button class="p-1 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container" title="Dekont İndir" type="button">
+<span class="material-symbols-outlined text-[18px]">receipt_long</span>
+</button>
+</td>
+</tr>
+<!-- Ledger Row 2 -->
+<tr class="hover:bg-surface-container-low/40 transition-colors">
+<td class="py-3.5 px-4">
+<div class="font-label-numeric-md font-semibold text-on-surface">#TX-992139</div>
+<div class="font-label-tag text-[10px] text-on-surface-variant">FX ARBITRAGE</div>
+</td>
+<td class="py-3.5 px-4">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-surface-container text-on-surface font-label-tag text-label-tag font-medium">
+<span class="material-symbols-outlined text-[13px] text-primary-container">sync</span>
+                  Döviz Çevrim
+                </span>
+</td>
+<td class="py-3.5 px-4">
+<div class="font-semibold text-on-surface">EUR / USD Pozisyon Kapatma</div>
+<div class="font-label-tag text-[11px] text-on-surface-variant">Kur: 1.0864 • Hazine içi likidite transferi</div>
+</td>
+<td class="py-3.5 px-4">
+<div class="font-label-numeric-md text-on-surface">24 Eki 2025</div>
+<div class="font-label-tag text-[11px] text-on-surface-variant">13:48:10 GMT+3</div>
+</td>
+<td class="py-3.5 px-4 text-right font-label-numeric-md font-bold text-primary-container">
+                +$50,000.00
+              </td>
+<td class="py-3.5 px-4 text-center">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-primary-fixed text-primary-container font-label-tag text-[11px] font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+                  Tamamlandı
+                </span>
+</td>
+<td class="py-3.5 px-4 text-center">
+<button class="p-1 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container" title="Dekont İndir" type="button">
+<span class="material-symbols-outlined text-[18px]">receipt_long</span>
+</button>
+</td>
+</tr>
+<!-- Ledger Row 3 -->
+<tr class="hover:bg-surface-container-low/40 transition-colors">
+<td class="py-3.5 px-4">
+<div class="font-label-numeric-md font-semibold text-on-surface">#TX-992138</div>
+<div class="font-label-tag text-[10px] text-on-surface-variant">SEPA INSTANT</div>
+</td>
+<td class="py-3.5 px-4">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-surface-container text-on-surface font-label-tag text-label-tag font-medium">
+<span class="material-symbols-outlined text-[13px] text-primary-container">flash_on</span>
+                  Anlık SEPA
+                </span>
+</td>
+<td class="py-3.5 px-4">
+<div class="font-semibold text-on-surface">Rotterdam Liman Lojistik A.Ş.</div>
+<div class="font-label-tag text-[11px] text-on-surface-variant">Konteyner Elleçleme ve Navlun Hakedişi</div>
+</td>
+<td class="py-3.5 px-4">
+<div class="font-label-numeric-md text-on-surface">24 Eki 2025</div>
+<div class="font-label-tag text-[11px] text-on-surface-variant">11:05:22 GMT+3</div>
+</td>
+<td class="py-3.5 px-4 text-right font-label-numeric-md font-bold text-on-surface">
+                -€12,950.00
+              </td>
+<td class="py-3.5 px-4 text-center">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-tag text-[11px] font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary animate-pulse"></span>
+                  İşlemde
+                </span>
+</td>
+<td class="py-3.5 px-4 text-center">
+<button class="p-1 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container" title="Dekont İndir" type="button">
+<span class="material-symbols-outlined text-[18px]">receipt_long</span>
+</button>
+</td>
+</tr>
+<!-- Ledger Row 4 -->
+<tr class="hover:bg-surface-container-low/40 transition-colors">
+<td class="py-3.5 px-4">
+<div class="font-label-numeric-md font-semibold text-on-surface">#TX-992137</div>
+<div class="font-label-tag text-[10px] text-on-surface-variant">EMK-AU-DEPO</div>
+</td>
+<td class="py-3.5 px-4">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-tertiary-fixed text-on-tertiary-fixed-variant font-label-tag text-label-tag font-medium">
+<span class="material-symbols-outlined text-[13px] text-tertiary">diamond</span>
+                  Külçe Saklama
+                </span>
+</td>
+<td class="py-3.5 px-4">
+<div class="font-semibold text-tertiary">Zürih Kasa Tahsisi (LBMA Good Delivery)</div>
+<div class="font-label-tag text-[11px] text-on-surface-variant">25.00 Ons Fiziki Altın Ek Alımı ve Kasa Kaydı</div>
+</td>
+<td class="py-3.5 px-4">
+<div class="font-label-numeric-md text-on-surface">23 Eki 2025</div>
+<div class="font-label-tag text-[11px] text-on-surface-variant">16:30:00 GMT+3</div>
+</td>
+<td class="py-3.5 px-4 text-right font-label-numeric-md font-bold text-tertiary">
+                +25.00 ONS
+              </td>
+<td class="py-3.5 px-4 text-center">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-primary-fixed text-primary-container font-label-tag text-[11px] font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+                  Tamamlandı
+                </span>
+</td>
+<td class="py-3.5 px-4 text-center">
+<button class="p-1 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container" title="Dekont İndir" type="button">
+<span class="material-symbols-outlined text-[18px]">receipt_long</span>
+</button>
+</td>
+</tr>
+<!-- Ledger Row 5 -->
+<tr class="hover:bg-surface-container-low/40 transition-colors">
+<td class="py-3.5 px-4">
+<div class="font-label-numeric-md font-semibold text-on-surface">#TX-992136</div>
+<div class="font-label-tag text-[10px] text-on-surface-variant">CHAPS TRANSFER</div>
+</td>
+<td class="py-3.5 px-4">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-surface-container text-on-surface font-label-tag text-label-tag font-medium">
+<span class="material-symbols-outlined text-[13px] text-on-surface-variant">verified_user</span>
+                  Yüksek Limit
+                </span>
+</td>
+<td class="py-3.5 px-4">
+<div class="font-semibold text-on-surface">British Petroleum UK Treasury</div>
+<div class="font-label-tag text-[11px] text-on-surface-variant">Çift İmzalı Kurumsal Hazine Onayı Bekleniyor</div>
+</td>
+<td class="py-3.5 px-4">
+<div class="font-label-numeric-md text-on-surface">23 Eki 2025</div>
+<div class="font-label-tag text-[11px] text-on-surface-variant">10:15:30 GMT+3</div>
+</td>
+<td class="py-3.5 px-4 text-right font-label-numeric-md font-bold text-on-surface">
+                -£45,000.00
+              </td>
+<td class="py-3.5 px-4 text-center">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed-variant font-label-tag text-[11px] font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+                  Onay Bekliyor
+                </span>
+</td>
+<td class="py-3.5 px-4 text-center">
+<button class="p-1 rounded text-primary-container hover:bg-surface-container font-semibold" title="İmzala / Onayla" type="button">
+<span class="material-symbols-outlined text-[18px]">edit_document</span>
+</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Ledger Footer & Export Options -->
+<div class="flex flex-col sm:flex-row items-center justify-between gap-space-sm pt-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="font-label-tag text-label-tag">Toplam 1,428 kayıt içinden son 5 işlem gösteriliyor</span>
+<div class="flex items-center gap-space-sm">
+<button class="px-space-md py-1 rounded bg-surface-container hover:bg-surface-container-high text-on-surface font-label-tag text-label-tag font-semibold transition-colors flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[15px]">file_download</span>
+<span>MT940 / MT950 İndir</span>
+</button>
+<button class="px-space-md py-1 rounded bg-surface-container hover:bg-surface-container-high text-on-surface font-label-tag text-label-tag font-semibold transition-colors flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[15px]">table_view</span>
+<span>Excel / CSV</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div></main><footer class="w-full bg-surface-container-low mt-space-xl"><div class="w-full px-margin py-space-xl flex flex-col md:flex-row items-center justify-between gap-space-md text-on-surface-variant font-body-sm text-body-sm"><div class="flex items-center gap-space-sm"><span class="font-headline-sm text-headline-sm text-primary font-bold">Aura Treasury</span><span class="text-outline">|</span><span>Kurumsal Hazine ve Portföy Yönetim Sistemleri A.Ş.</span></div><div class="flex items-center gap-space-lg"><span class="font-label-tag text-label-tag text-on-surface-variant">ISO 27001 &amp; SOC2 TIP II SERTİFİKALI</span><span class="font-label-tag text-label-tag text-on-surface-variant">© 2025 AURA FINANCIAL TECHNOLOGIES</span></div></div></footer></body></html>

@@ -1,0 +1,84 @@
+/* Tasarım token'ları: uı/stitch_global_currency_ui_dashboard/DESIGN.md ("Sovereign Treasury") */
+:root {
+  /* Renkler */
+  --emerald: #0f5132;
+  --emerald-strong: #0a3622;
+  --emerald-bright: #198754;
+  --emerald-tint: #ecfdf5;
+  --emerald-line: #a7f3d0;
+
+  --navy: #0a2540;
+  --navy-strong: #1e3a8a;
+  --slate-blue: #49607e;
+  --slate-blue-tint: #e2e7ff;
+
+  --gold: #d97706;
+  --gold-deep: #6e3900;
+  --gold-tint: #fffbeb;
+  --gold-line: #fde68a;
+
+  --danger: #dc2626;
+  --danger-deep: #ba1a1a;
+  --danger-tint: #fef2f2;
+  --danger-line: #fecaca;
+
+  --canvas: #f8fafc;
+  --band: #f1f5f9;
+  --surface: #ffffff;
+  --line: #e2e8f0;
+  --line-strong: #cbd5e1;
+  --line-faint: #f1f5f9;
+
+  --ink: #0f172a;
+  --ink-2: #334155;
+  --ink-3: #64748b;
+  --ink-4: #94a3b8;
+
+  /* Yazı tipleri */
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-body: 'Hanken Grotesk', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  /* Yazı ölçeği */
+  --display-lg: 700 48px/56px var(--font-display);
+  --headline-lg: 600 36px/44px var(--font-display);
+  --headline-md: 600 24px/32px var(--font-display);
+  --headline-sm: 600 20px/28px var(--font-display);
+  --body-lg: 400 18px/28px var(--font-body);
+  --body-md: 400 15px/22px var(--font-body);
+  --body-sm: 400 13px/18px var(--font-body);
+  --numeric-lg: 600 20px/24px var(--font-mono);
+  --numeric-md: 500 14px/18px var(--font-mono);
+  --label-tag: 600 11px/14px var(--font-mono);
+
+  /* Köşe yarıçapları */
+  --r-sm: 2px;
+  --r: 4px;
+  --r-md: 6px;
+  --r-lg: 8px;
+  --r-xl: 12px;
+
+  /* Boşluklar */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --gutter: 24px;
+  --margin: 40px;
+
+  /* Gölgeler */
+  --shadow-float: 0 4px 12px rgba(10, 37, 64, 0.05), 0 1px 3px rgba(10, 37, 64, 0.08);
+  --shadow-modal: 0 24px 48px rgba(10, 37, 64, 0.18), 0 2px 6px rgba(10, 37, 64, 0.08);
+
+  --focus-ring: 0 0 0 2px var(--surface), 0 0 0 4px var(--emerald);
+}
+
+@media (max-width: 767px) {
+  :root {
+    --display-lg: 700 32px/40px var(--font-display);
+    --headline-lg: 600 26px/32px var(--font-display);
+    --gutter: 12px;
+    --margin: 16px;
+  }
+}
